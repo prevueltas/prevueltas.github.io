@@ -1,55 +1,102 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+#-------------------------------
+# Site Settings
+title: Pedro Revueltas
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Web personal de Pedro Revueltas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://pedrorevueltas.com" # the base hostname & protocol for your site, e.g. http://example.com
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
-# Build settings
-theme: minima
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Pedro Revueltas
+  author__bio: 'Software Development Manager con una misión: lograr que equipos de alto voltaje desarrollen productos digitales asombrosos.'
+  author__avatar: '/images/pedro_revueltas_perfil_bn.jpg'
+
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/pedrorevueltas"}
+# - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# - {icon: "ion-logo-instagram", link: "https://instagram.com"}
+# - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+# - {icon: "ion-logo-youtube", link: "https://youtube.com"}
+- {icon: "ion-logo-github", link: "https://github.com/prevueltas"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/pedrorevueltas/"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hola! Soy Pedro Revueltas
+  hero__description: Me dedico a gestionar y, muchas veces, liderar, equipos de desarrollo software, grandes o pequeños, pero siempre con un gran propósito.
+  hero__image: '/images/foto-equipo-lowi.jpg'
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__input__text: Subscribe here
+mailchimp__button__text: Get a new tip
+
+
+#-------------------------------
+# Gallery Footer Section
+# gallery:
+#   gallery__title: Gallery
+#   gallery__columns: 3
+#   gallery__images:
+#     - alt: 'Rest'
+#       url: '/images/100.jpg'
+#     - alt: 'Lifestyle'
+#       url: '/images/101.jpg'
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: your@email.com # Add your email for contant form
+  description: Menso comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
+
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
