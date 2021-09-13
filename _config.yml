@@ -5,7 +5,7 @@ logo: # You can add own logo. For example '/images/logo.png'.
 description: Blog personal de Pedro Revueltas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pedrorevueltas.com" # the base hostname & protocol for your site, e.g. http://example.com
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
@@ -50,24 +50,30 @@ gallery:
   gallery__title: Algunas fotos
   gallery__columns: 3
   gallery__images:
+    - alt: 'Desktop setup'
+      url: '/images/gallery/pedro-setup.jpg'
     - alt: 'Asistentes a la CAS'
       url: '/images/gallery/charla-cas-asistentes.jpg'
     - alt: 'Portada charla CAS'
       url: '/images/gallery/charla-cas-inicio.jpg'
-    - alt: ''
+    - alt: 'Dinámica equipo'
       url: '/images/gallery/dinamica-equipo.jpg'
-    - alt: ''
+    - alt: 'Enemigo invisible por Navidad'
       url: '/images/gallery/enemigo-invisible.jpg'
-    - alt: ''
+    - alt: 'Equipo PRISA'
       url: '/images/gallery/equipo-prisa.jpg'
-    - alt: ''
+    - alt: 'Openspace'
       url: '/images/gallery/foto-adri-pedro.jpg'
-    - alt: ''
+    - alt: 'Formacion Paradigma Institude'
       url: '/images/gallery/pedro-formacion.jpg'
-    - alt: ''
-      url: '/images/gallery/pedro-setup.jpg'
-    - alt: ''
+    - alt: 'Formacion Paradigma Institute Java'
+      url: '/images/gallery/pedro-formacion-2.jpg'
+    - alt: 'Tabler User Story Map'
       url: '/images/gallery/tablero.jpg'
+    - alt: 'Carrera de Empresas'
+      url: '/images/gallery/carrera-empresas.jpg'
+    - alt: 'Stand up meeting en Skylab, Manchester'
+      url: '/images/gallery/last-standup-skylab.jpg'
 
 #-------------------------------
 # Contact Settings

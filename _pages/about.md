@@ -15,4 +15,6 @@ Comencé mi carrera profesional ocupando posiciones como System Administrator, W
 
 Estudié Ingeniería superior de Telecomunicaciones en Málaga y sí, muchas veces al salir de clase me iba a la playa, ¡qué tiempos aquellos!. Hice un MBA y también un Máster en Marketing Online y E-commerce en la escuela de negocios EAE, donde pude conocer a profesionales con mayúsculas de diferentes sectores que me inspiraron profundamente.
 
+Aquí tienes [mi CV en Linkedin](https://www.linkedin.com/in/pedrorevueltas/){:target="_blank"}.
+
 Si has llegado hasta aquí, y crees que debemos conocernos, no dudes en hacerme ping.
