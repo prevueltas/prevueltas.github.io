@@ -2,7 +2,7 @@
 # Site Settings
 title: Pedro Revueltas
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Web personal de Pedro Revueltas
+description: Blog personal de Pedro Revueltas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pedrorevueltas.com" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -13,7 +13,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 author:
   author__name: Pedro Revueltas
   author__bio: 'Software Development Manager con una misión: lograr que equipos de alto voltaje desarrollen productos digitales asombrosos.'
-  author__avatar: '/images/pedro_revueltas_perfil_bn.jpg'
+  author__avatar: '/images/pedro-revueltas-perfil.jpg'
 
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/pedrorevueltas"}
@@ -33,7 +33,7 @@ social:
 hero:
   hero__title: Hola! Soy Pedro Revueltas
   hero__description: Me dedico a gestionar y, muchas veces, liderar, equipos de desarrollo software, grandes o pequeños, pero siempre con un gran propósito.
-  hero__image: '/images/foto-equipo-lowi.jpg'
+  hero__image: '/images/foto-pedro-revueltas-portatil.jpg'
 
 
 #-------------------------------
