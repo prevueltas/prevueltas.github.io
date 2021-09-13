@@ -11,7 +11,11 @@ Por si no lo sabes, la CAS es la conferencia de referencia sobre metodologías �
 
 Comparto el vídeo de mi charla sobre gestión de conflictos en equipos ágiles (más arriba). Todos los equipos atraviesan momentos difíciles en algún momento y nunca viene mal saber cómo enfrentarte a ellos.
 
-Si quieres leer un extracto de la charla, puedes leer el [post que escribí en la web de Paradgima Digital](https://www.paradigmadigital.com/techbiz/conflictos-equipos-agiles-como-mejorar-habilidades/).
+Si quieres leer un extracto de la charla, puedes leer el [post que escribí en la web de Paradigma Digital](https://www.paradigmadigital.com/techbiz/conflictos-equipos-agiles-como-mejorar-habilidades/).
+
+Joan Lozano [@lozanojardi](https://twitter.com/lozanojardi) hizo esta magnífica infografía mientras yo soltaba la chapa, ¡muchas gracias Joan!
+
+![Infografía de la charla Conflictos en Equipos Agiles]({{site.baseurl}}/images/infografia-charla-gestion-conflictos.jpg#wide)
 
 Un resumen con 5 claves podría ser este:
 
@@ -20,7 +24,6 @@ Un resumen con 5 claves podría ser este:
 * Los 5 niveles de un conflicto (Modelo de Speed B. Leas) pueden usarse para clasificar un conflicto y decidir, según el nivel, el tipo de respuesta.
 * Según el nivel del conflicto, el grado de asertividad y de cooperación de un equipo, los conflictos pueden resolverse por competencia, evitación, negociación, acomodación o colaboración (Modelo de Thomas-Kilmann).
 * Las Estructuras son artefactos que, a la vez que refuerzan las bases del Agilismo, resuelven los conflictos mejorando el grado de desempeño.
-
 
 ![Grupo asistente de Paradigma]({{site.baseurl}}/images/foto-cas-2019-paradigmaticos.jpg)
 *Grupo asistente de Paradigma*

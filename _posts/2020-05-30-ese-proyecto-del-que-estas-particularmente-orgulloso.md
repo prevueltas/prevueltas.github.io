@@ -20,8 +20,8 @@ Asimismo, creamos unas convenciones internas con buenas prácticas (basadas en X
 
 Para hacer desarrollo software ágil es imprescindible implementar buenas prácticas de desarrrollo, más allá de cualquier marco. Viene bien recordar uno de los principios del manifiesto ágil: "Continuous attention to technical excellence and good design enhances agility."
 
-![Lowi Home]({{site.baseurl}}/images/lowi-es-completa.jpg)
-*Pantallazo de la home de Lowi.es*
+![Lowi Home]({{site.baseurl}}/images/lowi-pantallazos.jpg)
+*Pantallazos de Lowi.es*
 
 Uno de los grandes retos que tuvimos que enfrentarnos fue transformar un proceso de compra síncrono en asíncrono, de modo que si el flujo de compra se interrumpía en el algún punto del proceso (aprovisionamiento de SIM, alta en SAP, logística, etc.), la compra se reanudara automáticamente una vez la incidencia estuviera resuelta y el proceso de compra progresara.
 

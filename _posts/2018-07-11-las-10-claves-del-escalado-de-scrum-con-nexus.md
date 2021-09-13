@@ -7,9 +7,8 @@ image:  '/images/seminario-nexus.jpg'
 video_embed: https://www.youtube.com/embed/PFXXfBWtbAw
 tags:   []
 ---
-Después del primer año implantando Nexus en un equipo de desarrollo que oscila alrededor de los 50 miembros comparto en este seminario que impartí en Paradigma Digital algunos consejos que os pueden ser de utilidad. Si te interesa, comparto el vídeo más arriba.
+Después del primer año implantando Nexus en el equipo de desarrollo de Lowi, comparto este seminario que impartí en Paradigma Digital con algunas de las claves que aprendimos a base de prueba y error.
 
 
 ![Escalado de Scrum con Nexus]({{site.baseurl}}/images/nexus-escalado-scrum.jpg)
 *Escalado de Scrum con Nexus*
-

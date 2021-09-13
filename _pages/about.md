@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre mi
+title: Sobre mí
 permalink: /sobre-mi/
 image: '/images/foto-equipo-lowi.jpg'
 ---

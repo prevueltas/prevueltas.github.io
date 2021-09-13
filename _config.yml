@@ -46,14 +46,28 @@ mailchimp__button__text: Get a new tip
 
 #-------------------------------
 # Gallery Footer Section
-# gallery:
-#   gallery__title: Gallery
-#   gallery__columns: 3
-#   gallery__images:
-#     - alt: 'Rest'
-#       url: '/images/100.jpg'
-#     - alt: 'Lifestyle'
-#       url: '/images/101.jpg'
+gallery:
+  gallery__title: Algunas fotos
+  gallery__columns: 3
+  gallery__images:
+    - alt: 'Asistentes a la CAS'
+      url: '/images/gallery/charla-cas-asistentes.jpg'
+    - alt: 'Portada charla CAS'
+      url: '/images/gallery/charla-cas-inicio.jpg'
+    - alt: ''
+      url: '/images/gallery/dinamica-equipo.jpg'
+    - alt: ''
+      url: '/images/gallery/enemigo-invisible.jpg'
+    - alt: ''
+      url: '/images/gallery/equipo-prisa.jpg'
+    - alt: ''
+      url: '/images/gallery/foto-adri-pedro.jpg'
+    - alt: ''
+      url: '/images/gallery/pedro-formacion.jpg'
+    - alt: ''
+      url: '/images/gallery/pedro-setup.jpg'
+    - alt: ''
+      url: '/images/gallery/tablero.jpg'
 
 #-------------------------------
 # Contact Settings
